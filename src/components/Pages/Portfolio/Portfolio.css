@@ -1,0 +1,33 @@
+.icon{
+    margin-right: 10px;
+    font-size: 30px;
+}
+/* Images */
+#doctorPortal {
+    background-image: url("../../../images/doctorPortal.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #CreativeAgency {
+    background-image: url("../../../images/creativeAgency.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #Volunteer {
+    background-image: url("../../../images/Volunteer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #facebookClone {
+    background-image: url("../../../images/fb.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #Travel {
+    background-image: url("../../../images/Travel.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
