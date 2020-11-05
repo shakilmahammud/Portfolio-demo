@@ -1,0 +1,62 @@
+.works .portfolio-image{
+    height: 300px;
+    overflow: hidden;
+    border-bottom: 3px solid rgb(31, 31, 31);
+    z-index: 1;
+}
+
+.works .task-description{
+    z-index: 3 !important;
+    border-radius: 5px;
+    text-decoration: none;
+    background: #042f67;
+    font-size:14px;
+}
+.task-description h5{
+    color: #64FFDA;
+}
+.tools{
+    padding: 5px;
+    margin-right: 10px;
+    background:#000;
+}
+.project-details{
+}
+
+@media (min-width: 768px) {
+    .works .task-description{
+        margin-right: -60px;
+    }
+}
+
+.pr-ig{
+    mix-blend-mode: multiply;
+    filter: grayscale(100%) contrast(1) brightness(90%);
+    border-radius: 3px;
+}
+.pr-img{
+    filter:grayscale(100%) sepia(16%) saturate(1079%) hue-rotate(55deg) brightness(106%) contrast(100%);
+}
+
+.myfilter img {
+    width: 100%;
+    filter:  contrast(1.11) ;
+    -webkit-filter: contrast(1.11) ;
+    -moz-filter: contrast(1.11) ;
+}
+
+.myfilter{
+    position: relative;
+}
+
+.myfilter:after{
+    position: absolute; content: ''; display: block; top: 0; left: 0; height: 100%; width: 100%;
+    background: #64FFDA;
+    mix-blend-mode: multiply;
+    transition: all .4s ease;
+}
+
+.myfilter:hover::after{
+    background: #64ffdb00;
+    transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}

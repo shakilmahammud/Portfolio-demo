@@ -1,0 +1,19 @@
+.social-links a {
+    display: inline-flex;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #042f67;
+    padding: 15px 15px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.social-links a:hover {
+    border: 1px solid #fff;
+    color:#fff; 
+}

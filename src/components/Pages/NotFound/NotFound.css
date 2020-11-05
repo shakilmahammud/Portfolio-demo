@@ -1,0 +1,10 @@
+.notFund{
+    background:#000;
+    width:400px;
+    color:#fff;
+    padding: 50px;
+    box-shadow: 20px 20px 20px rgb(78, 21, 21);
+}
+.notfoundmain{
+    padding:100px;
+}

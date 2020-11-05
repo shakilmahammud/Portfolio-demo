@@ -1,0 +1,44 @@
+.Blogs .card {
+    background-color:#042f67;
+    color:#fff;
+}
+
+.Blogs .btn {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.Blogs .btn:hover {
+    font-size: 16px;
+    color: #042f67;
+    border: 1px solid #042f67;
+     background: #fff;
+}
+
+.Blogs .header h2 {
+    font-size: 35px;
+}
+
+.Blogs .header span {
+    color: #042f67;
+}
+
+.Blogs p {
+    font-size: 16px;
+}
+
+.Blogs .wrapper
+{
+	padding-bottom: 50px;
+}
+
+.btn-posion-align{
+	margin-left:130px;
+	margin-top:-50px;
+}
+
+
+

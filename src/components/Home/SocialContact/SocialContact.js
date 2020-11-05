@@ -1,7 +1,8 @@
 import React from "react";
 import "../../../index.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faHtml5,faCss3,faSass,faBootstrap,faNodeJs,faReact, faJs, faGithubAlt, faMedium, faLinkedin, faMediumM, faLinkedinIn,} from '@fortawesome/free-brands-svg-icons'
+import {faGithubAlt ,faMediumM, faLinkedinIn,} from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faGlobe, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const SocialContact = () => {
   return (
@@ -21,6 +22,7 @@ const SocialContact = () => {
         <div className="cards">
           <div className="contact-icons">
             <i className="fas fa-envelope"></i>
+            <FontAwesomeIcon icon={faEnvelope}/>
           </div>
           <div className="contact-text">
             <span>Email</span>
@@ -33,7 +35,7 @@ const SocialContact = () => {
         {/* Card 2 - Social Media */}
         <div className="cards">
           <div className="contact-icons">
-            <i className="fas fa-globe"></i>
+            <FontAwesomeIcon icon={faGlobe}/>
           </div>
           <div className="contact-text">
             <span>Social Media</span>
@@ -45,7 +47,7 @@ const SocialContact = () => {
               target="_blank"
               href="https://github.com/shakilmahammud"
             >
-             <FontAwesomeIcon icon={faGithubAlt} className="icon"/>
+             <FontAwesomeIcon icon={faGithubAlt} className="iconf"/>
             </a>
 
             {/* facebook */}
@@ -54,7 +56,7 @@ const SocialContact = () => {
               target="_blank"
               href="https://medium.com/@shakil.mit.bd"
             >
-             <FontAwesomeIcon icon={faMediumM} className="icon"/>
+             <FontAwesomeIcon icon={faMediumM} className="iconf"/>
             </a>
 
             {/* linkedIn */}
@@ -63,7 +65,7 @@ const SocialContact = () => {
               target="_blank"
               href="https://www.linkedin.com/in/md-shakil-829802169/"
             >
-             <FontAwesomeIcon icon={faLinkedinIn}  className="icon"/>
+             <FontAwesomeIcon icon={faLinkedinIn}  className="iconf"/>
             </a>
 
             {/* Twitter */}
@@ -93,7 +95,7 @@ const SocialContact = () => {
         {/* Card 3 - Phone */}
         <div className="cards">
           <div className="contact-icons">
-            <i className="fas fa-phone"></i>
+            <FontAwesomeIcon icon={faPhone}/>
           </div>
           <div className="contact-text">
             <span>Phone</span>

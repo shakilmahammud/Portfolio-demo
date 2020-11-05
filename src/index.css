@@ -506,77 +506,24 @@ body {
   display: block;
 }
 
-.contact-links i {
+.contact-links .iconf {
   cursor: pointer;
   margin: 0.3rem;
   display: block;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   position: relative;
   text-align: center;
-
   padding: 0.1rem;
-
   user-select: none;
+  color: #042f67;
 }
 
 .contact-links a {
   text-decoration: none;
 }
 
-.contact-links i:hover {
-  box-shadow: 2px 2px 4px gray;
 
-  border-radius: 20%;
-}
 
-.contact-links #github {
-  color: rgba(0, 0, 0, 0.884);
-}
-
-.contact-links:hover #github {
-  color: rgb(0, 0, 0);
-}
-
-.contact-links #facebook {
-  color: rgba(28, 28, 231, 0.938);
-}
-
-.contact-links:hover #facebook {
-  color: rgb(28, 28, 231);
-}
-
-.contact-links #instagram {
-  color: rgba(214, 84, 45, 0.89);
-}
-
-.contact-links:hover #instagram {
-  color: rgb(214, 84, 45);
-}
-
-.contact-links #linkedin {
-  color: #3d8eb7ea;
-}
-
-.contact-links:hover #linkedin {
-  color: #3d8eb7;
-}
-
-.contact-links #twitter {
-  color: #00b7fff1;
-}
-
-.contact-links:hover #twitter {
-  color: #00b7ff;
-}
-
-.contact-icons i {
-  color: #f35166;
-  cursor: pointer;
-  font-size: 1.7rem;
-  position: relative;
-  user-select: none;
-  transition: all 0.2s ease-in 0s;
-}
 
 /* Footer */
 .footer-container {

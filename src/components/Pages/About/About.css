@@ -1,0 +1,70 @@
+.About{
+    background: #042f67;
+    padding-top: 80px;
+}
+.About .btn {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.About .btn:hover {
+    font-size: 16px;
+    color:#042f67;
+    background: #fff;
+    border: 1px solid #042f67;
+}
+
+.About .header h2 {
+    font-size: 35px;
+    color:#fff;
+}
+
+
+
+.About p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.About .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px solid #fff;
+}
+
+.About  .description {
+    line-height: 1.9;
+    text-align: justify;
+}
+
+.About .skills h2 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.About .skills h4 {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 25px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.About .skills span {
+    font-size: 12px;
+    padding: 0 7px;
+    color: #fff;
+}
+
+.About .wrapper
+{
+	padding-bottom: 50px;
+}
